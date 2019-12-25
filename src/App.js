@@ -8,6 +8,7 @@ import Menu from './component/menu';
 import DataDiri from './component/data-diri';
 import Card from './component/card';
 import ListMakanan from './page/list-makanan';
+
 function App() {
   return (
     <React.Fragment>
