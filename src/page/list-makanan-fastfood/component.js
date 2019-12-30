@@ -4,13 +4,13 @@ import Data from '../../data/data-dummy';
 import AppBar from '../../component/appbar';
 import Container from '@material-ui/core/Container';
 
-function ListMakanan(props) {
+function ListMakananFastfood(props) {
   const {} = props;
   return (
     <React.Fragment>
-      <AppBar go back title=" Menu Indonesia Food" />
+      <AppBar go back title="Menu Fast Food" />
       {Data.map(item => {
-        if (item.jenis == 'Indonesia Food')
+        if (item.jenis == 'Fast Food')
           return (
             <Container maxWidth="xs">
               <Card
@@ -26,4 +26,4 @@ function ListMakanan(props) {
   );
 }
 
-export default ListMakanan;
+export default ListMakananFastfood;

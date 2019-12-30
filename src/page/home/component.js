@@ -1,10 +1,16 @@
 import React from 'react';
-import DataDiri from '../../component/data-diri';
+import AppBarr from '../../component/appbar';
+import Container from '@material-ui/core/Container';
+import CardJenis from '../../component/card-jenis';
+import CardFast from '../../component/card-fastfood';
+
 function Home() {
   return (
-    <React.Fragment>
-      <DataDiri nama="eva elvina" umur="16" tanggal="30" />
-    </React.Fragment>
+    <Container maxWidth="xs">
+      <AppBarr title="Selamat Datang" />
+      <CardJenis />
+      <CardFast />
+    </Container>
   );
 }
 
